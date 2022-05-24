@@ -8,6 +8,7 @@ cal4
 cal9.18
 + or -
 
+
 are the commands to enter.
 + and - are to set the solution temparature, its normally similar to the ambient temp.
 to calibrate, use only 2 points according your needs and used solutions.
