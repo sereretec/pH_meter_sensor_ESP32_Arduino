@@ -6,14 +6,15 @@ cal7
 cal6.86   
 cal4  
 cal9.18 
+to change the temp use + or -
 
-+
--
+confirm with enter
 
 
 
 are the commands to enter.
-  + and - are to set the solution temparature, its normally similar to the ambient temp.
+
+plus and minus are to set the solution temparature, its normally similar to the ambient temp.
 to calibrate, use only 2 points according your needs and used solutions.
 Like pH 7 and 4, or 6.86 / 4, or 7 and 9.18, or 6.86 / 9.18.
 The calibration is stored in the EEPROM.
