@@ -6,7 +6,7 @@ cal7
 cal6.86   
 cal4  
 cal9.18   
-+    or   -
++ or   -
 
   are the commands to enter.
 + and - are to set the solution temparature, its normally similar to the ambient temp.
