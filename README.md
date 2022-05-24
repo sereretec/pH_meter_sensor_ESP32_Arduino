@@ -8,11 +8,7 @@ cal4
 cal9.18   
 to change the temp use + or -
 
-confirm with enter
-
-
-
-are the commands to enter.
+confirm with enter.
 
 plus and minus are to set the solution temparature, its normally similar to the ambient temp.
 to calibrate, use only 2 points according your needs and used solutions.
