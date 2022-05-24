@@ -5,8 +5,11 @@ The Sensor is based on I2C using a 18bit differential ADC.
 cal7  
 cal6.86   
 cal4  
-cal9.18
-  + or -
+cal9.18 
+
++
+-
+
 
 
 are the commands to enter.
