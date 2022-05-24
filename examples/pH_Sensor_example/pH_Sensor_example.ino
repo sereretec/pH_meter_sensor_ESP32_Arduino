@@ -12,7 +12,6 @@ void setup()
 }
 void loop() {
   pH_Sensor.s1read();
-  // pH_Sensor.readpH();
   temp = 22;
   pH_Sensor.passtemp(temp);
   phresult = pH_Sensor.readpH();
