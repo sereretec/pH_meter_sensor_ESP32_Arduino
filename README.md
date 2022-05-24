@@ -1,4 +1,4 @@
-this Arduino IDE library is for interfacing the I2C 18bit ADC Sereretec pH Sensor electronics by an ESP32 or similar.   
+this Arduino IDE library is for interfacing the I2C 18bit ADC Sereretec pH Sensor Meter electronics by an ESP, ESP32 or ESP8266 and Arduino.   
 You can use following commands in the Serial Monitor.
 The Sensor is based on I2C using a 18bit differential MCP3421 ADC.
 
