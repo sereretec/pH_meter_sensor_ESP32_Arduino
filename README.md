@@ -20,4 +20,4 @@ Please enter the temparature before calibration.
 Feel free to replace the temp value with a real temp probe value. 
 
 Please see the example file for how to get the readings.
-this library is tested with a ESP32, for the Arduino 8bit Atmel enviroment you need to uncommnet some lines regarding the EEPROM.
+this library is tested with an ESP32, for the Arduino 8bit Atmel enviroment you need to uncommnet some lines regarding the EEPROM.
