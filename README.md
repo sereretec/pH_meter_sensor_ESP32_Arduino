@@ -15,7 +15,8 @@ its normally similar to the ambient temp.
 to calibrate, use only 2 points according your calibration solutions.   
 f.e. pH 7 and 4, or 6.86 / 4, or 7 and 9.18, or 6.86 / 9.18.  
 The calibration is stored in the EEPROM.  
-You can enter your soluton temparature and the code will atomatically compensate for temp changes.  
+You can enter your solution temparature and the code will atomatically compensate for temp changes.  
+Please enter the temparature before calibration.    
 Feel free to replace the temp value with a real temp probe value. 
 
 Please see the example file for how to get the readings.
