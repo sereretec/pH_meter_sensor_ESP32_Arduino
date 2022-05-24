@@ -1,6 +1,6 @@
 this library is for interfacing the I2C 18bit ADC Sereretec pH Sensor electronics by an ESP32 or similar.
 You can use following commands in the Serial Monitor.
-The Sensor is based on I2C using a 18bit differential ADC.
+The Sensor is based on I2C using a 18bit differential MCP3421 ADC.
 
 cal7  
 cal6.86   
