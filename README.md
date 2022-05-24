@@ -2,13 +2,13 @@ this library is for interfacing the I2C 18bit ADC Sereretec pH Sensor electronic
 You can use following commands in the Serial Monitor.
 The Sensor is based on I2C using a 18bit differential ADC.
 
-cal7
-cal6.86
-cal4
-cal9.18
-+ 
-.
-
+cal7  
+cal6.86 
+cal4  
+cal9.18 
++   
+- 
+  are the commands to enter.
 + and - are to set the solution temparature, its normally similar to the ambient temp.
 to calibrate, use only 2 points according your needs and used solutions.
 Like pH 7 and 4, or 6.86 / 4, or 7 and 9.18, or 6.86 / 9.18.
