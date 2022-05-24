@@ -3,7 +3,7 @@ You can use following commands in the Serial Monitor.
 The Sensor is based on I2C using a 18bit differential ADC.
 
 cal7  
-cal6.86 
+cal6.86   
 cal4  
 cal9.18 
 +   
