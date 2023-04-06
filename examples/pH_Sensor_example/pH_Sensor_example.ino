@@ -1,7 +1,7 @@
 #include "Sereretec_pH_Sensor.h"
 pH_Sensor pH_Sensor;
 float phresult;
-float temp;
+//float temp; //uncommnet if you plan to use a temp probe only
 
 void setup()
 {
@@ -12,8 +12,8 @@ void setup()
 }
 void loop() {
   pH_Sensor.s1read();
-  temp = 22;
-  pH_Sensor.passtemp(temp);
+  //temp = 22; //uncommnet if you plan to use a temp probe only
+  //pH_Sensor.passtemp(temp); //uncommnet if you plan to use a temp probe only
   phresult = pH_Sensor.readpH();
   Serial.print("pH= ");
   Serial.println(phresult, 3);
