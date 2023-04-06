@@ -96,7 +96,7 @@ float pH_Sensor::readpH() {
   byte b2 = Wire.read();
   byte b3 = Wire.read();
   byte b4 = Wire.read();
-  byte readybyte = Wire.read();
+ // byte readybyte = Wire.read();
   Wire.endTransmission();
   long value = (long) b3 * 256;
   value = value +  b4;
@@ -119,7 +119,7 @@ float pH_Sensor::readpH() {
   float slopecompensated = slope * (temp + 273.15) / (caltemp + 273.15);
   //Serial.print("slope temp compensated= ");
   //Serial.println(slopecompensated);
-  float probecheck = (slope / -59.2) * 100;
+  //float probecheck = (slope / -59.2) * 100;
   //Serial.print("slope % = ");
   //Serial.println(probecheck);
   phvalue = 7 + (voltage / slopecompensated);
@@ -133,6 +133,7 @@ float pH_Sensor::readpH() {
 
 float pH_Sensor::passtemp(float tempC) {
 temp = tempC;
+ return 0.0;
 }
 
 void pH_Sensor::s1read() {
